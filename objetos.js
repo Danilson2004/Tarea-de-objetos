@@ -57,4 +57,8 @@ const MiGato = {
 const MyFamily = [MiGato,mama,papá,Hermana,Hermano,Hermano2,MiPersona,MiGata];
 
 console.log(MyFamily)
+
+for (let contador = 0; contador < MyFamily.length; contador++) {
+    console.log(MyFamily[contador]);
+}
     

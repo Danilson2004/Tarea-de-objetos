@@ -168,6 +168,10 @@ var MiGato = {
 };
 var MyFamily = [MiGato, mama, papá, Hermana, Hermano, Hermano2, MiPersona, MiGata];
 console.log(MyFamily);
+
+for (var contador = 0; contador < MyFamily.length; contador++) {
+  console.log(MyFamily[contador]);
+}
 },{}],"../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
